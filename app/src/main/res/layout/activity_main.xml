@@ -1,0 +1,36 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <!-- Declare any variables for binding here -->
+    </data>
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/layout1"
+            layout="@layout/layout1"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/layout2"
+            layout="@layout/layout2"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/layout3"
+            layout="@layout/layout3"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/layout4"
+            layout="@layout/layout4"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/layout5"
+            layout="@layout/layout5"
+            android:visibility="gone" />
+    </FrameLayout>
+</layout>
+
